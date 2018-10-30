@@ -10,5 +10,5 @@ before_install:
 #to run the test
 
 script:
-#  - docker run -v $(pwd):/app build pytest -v .
-  - docker run -v %cd%:/app build pytest -v .
+  - docker run -v $(pwd):/app build pytest -v .
+#  - docker run -v %cd%:/app build pytest -v .
